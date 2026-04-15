@@ -34,6 +34,7 @@ const Login = () => {
             toast.error("Please fill all the fields!");
             return; // form submit nahi hoga
         }
+
         try {
             setLoading(true)
             const res = await axios.post('http://localhost:8000/api/v1/user/login', input, {

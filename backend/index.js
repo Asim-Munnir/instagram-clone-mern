@@ -17,12 +17,12 @@ const __dirname = path.resolve()
 console.log(__dirname)
 
 
-app.get("/", (req, res) => {
-    return res.status(200).json({
-        success: true,
-        message: "I'm coming from backend..."
-    })
-})
+// app.get("/", (req, res) => {
+//     return res.status(200).json({
+//         success: true,
+//         message: "I'm coming from backend..."
+//     })
+// })
 
 // Default Middlewares
 app.use(express.json())

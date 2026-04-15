@@ -18,3 +18,5 @@ router.route("/suggested").get(isAuthenticated, getSuggestedUsers)
 router.route("/followorunfollow/:id").post(isAuthenticated, followOrUnfollow)
 
 export default router
+
+
